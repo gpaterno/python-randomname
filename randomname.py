@@ -5,7 +5,7 @@
 # Credits and original code based on:
 # https://github.com/moby/moby/blob/master/pkg/namesgenerator/names-generator.go
 
-import random
+from random import choice
 
 left = [
 		"admiring",
@@ -266,10 +266,5 @@ right = [
 		"yonath",
 	]
 
-
 if __name__ == '__main__':
-
-   left_name = left[random.randint(0, len(left))]
-   right_name = right[random.randint(0, len(right))]
-   
-   print "%s_%s" % (left_name, right_name)
+   print "%s_%s" % (choice(left), choice(right))
