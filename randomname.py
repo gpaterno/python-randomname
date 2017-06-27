@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # Random name generator, in a similar way docker creates containers
 # Giuseppe Paterno' <gpaterno@gpaterno.com>
 #
